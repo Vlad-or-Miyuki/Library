@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Vlad-or-Miyuki/Library/issues"
   },
-  "homepage": "https://github.com/Vlad-or-Miyuki/Library#readme"
+  "homepage": "https://github.com/Vlad-or-Miyuki/Library#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
 }
