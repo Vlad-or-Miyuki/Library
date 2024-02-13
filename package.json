@@ -1,0 +1,20 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Library",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad-or-Miyuki/Library.git"
+  },
+  "author": "Miyuki,Astreytal987",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad-or-Miyuki/Library/issues"
+  },
+  "homepage": "https://github.com/Vlad-or-Miyuki/Library#readme"
+}
