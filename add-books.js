@@ -1,10 +1,10 @@
 import crc32 from 'crc-32';
 
-const getIndex = (book) => Math.abs(crc32.str(key)) % 1000;
+const getIndex = (book) => Math.abs(crc32.str(book)) % 1000;
 
 const hasCollision = (bookshelf, book) => {
   const index = getIndex(book)
-  const [currentKey] = map[index]
+  const [currentKey] = bookshelf[index]
   return currentKey !== book
 }
 
@@ -14,8 +14,10 @@ const setF = (bookshelf, book, value) => {
       return false;
     }
     bookshelf[index] = [book, value];
-  
+
     return true;
   };
+
+console.log(getIndex('А. Азимова «Я, робот»'));
 
 export default setF;
